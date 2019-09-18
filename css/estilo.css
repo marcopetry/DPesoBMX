@@ -1,0 +1,189 @@
+/*Estilização da página principal*/
+#TopoPagina {            
+    border-bottom: 0.4em solid rgba(243, 32, 32, 0.3);
+    padding: 0%;                 
+    background-color: black;    
+}
+
+#DpesoLogo {
+    max-width: 75%;    
+    width: auto;
+    max-height: 6em;    
+}
+
+#carousel-controles, .videos {
+    border: 0.3em solid rgba(243, 32, 32, 0.2);    
+}
+
+.MenuSuperior, .itemRodape, .itemRodape a, #socialRodape, .containerPerfil h4 {
+    font-family: stencil;
+    font-size: 1em;
+    color: gray;
+    text-align: center;
+    list-style: none;                                             
+}
+
+.LinkSuperior{
+    padding: 0em 1em;
+    width: auto;
+}
+
+a.navbar-brand{
+    margin-right: 0%;
+    max-width: 80%;
+    padding: 0%;
+}
+
+.corpo, .corpoForm, .corpoVideo{
+    background-image: url("../imagens/fundo4.jpg");
+    background-color: black;               
+}
+
+.fotoPerfil{    
+    height: 12em;    
+    border: 0.3em solid #A4A4A4;         
+}
+
+.containerPerfil {
+    display: flex;
+    justify-content: space-around;        
+    background-color: #7B0D0D;    
+}
+
+.containerPerfil h4 {
+    font-size: 2em;    
+}
+
+#divRodape input{
+    margin-top: 2em;
+    width: 15em;
+}
+
+.linkRodape a{
+    font-size: 0.8em;    
+}
+
+#logoRodape img {
+    width: 50%;    
+}
+
+#social {
+    padding: 0%;
+}
+
+/*estilização do cadastrar.html, login.html, contato.html*/
+
+.corpoForm label {    
+    font-size: 1em;
+    color: white;
+}
+
+#campoContato {
+    height: 14em;
+}
+
+/*Estilização para não estragar os layouts em plataformas */
+@media (min-width: 300px) {
+    .corpo {
+        padding: 3.3em 0;
+    }
+    
+    .corpoForm {
+        padding: 5em 2em 0 2em;
+    }
+
+    .corpoVideo {
+        padding-top: 5em;
+    }
+
+    #botaoGenero, label.btn-danger, #campoData {
+        width: 100%;
+    }        
+    
+    .containerPerfil {
+        padding: 2em 0 1.5em 0;
+    }
+    
+    .itemRodape {
+        padding: 2em 0 1em 0;
+    }
+
+    #logoRodape {
+        padding-bottom: 7em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .corpo{
+        padding: 8em 0;
+    }
+
+    .corpoForm {
+        padding: 9em 2em 0 2em;  
+    }
+
+    .corpoVideo {
+        padding-top: 9em;
+    }
+
+    #botaoGenero, #campoData {
+        width: 30%;
+    }
+  
+    label.btn-danger {
+        width: 100%;
+    }
+
+    .containerPerfil {
+        padding: 4em 0;
+    }
+
+    #logoRodape {
+        padding-bottom: 3em;
+    }
+  }
+  
+/*Configuração do videos.html*/
+.videos {
+    margin: auto;    
+    padding: 0%;
+}
+
+@media (min-width: 300px) {
+    .videos {
+        height: 150px;           
+        margin-bottom: 3em;
+    }
+}
+
+@media (min-width: 768px) {
+    .videos {
+        height: 472px;
+        margin-bottom: 5em;    
+    }
+}
+
+/*Configuração da página atletas.html*/
+
+.fotoAtleta {
+    height: 5em;
+    width: 5em;            
+}
+
+.albumFotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerFoto {
+    margin: 2em 0;
+}
+
+#albumGamma {
+    background-color: #2A0A0A;
+    /*background-color: rgba(243, 32, 32, 0.3); 610B0B    */
+}
+
+#albumGamma li {    
+    padding: 1em 0.5em;        
+}

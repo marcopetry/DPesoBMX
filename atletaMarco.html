@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Importações da gallery Gamma-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Petry</title>
+    <meta name="description" content="Gamma Gallery - A Responsive Image Gallery Experiment" />
+    <meta name="keywords" content="html5, responsive, image gallery, masonry, picture, images, sizes, fluid, history api, visibility api" />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" type="text/css" href="GammaGallery/GammaGallery/css/style.css" />
+    <script src="GammaGallery/GammaGallery/js/modernizr.custom.70736.js"></script>
+
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="GammaGallery/GammaGallery/css/noJS.css" /></noscript>
+    <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+
+    <!--Minhas importações-->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+
+			// $(document).ready(() => {
+
+			// 	$('#gamma-container').append(carregarFotos)
+
+			// })
+
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <nav id="TopoPagina" class="navbar navbar-expand-sm navbar-dark py-2 fixed-top">
+            <!-- Logo -->
+            <a href="index.html" class="navbar-brand">
+                <img id="DpesoLogo" src="imagens/dpesobmx.png">
+            </a>
+
+            <!-- Menu Hamburguer -->
+            <button class="navbar-toggler mr-1" data-toggle="collapse" data-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navegacao -->
+            <div id="navegacao" class="collapse navbar-collapse pr-4">
+                <ul class="navbar-nav ml-auto MenuSuperior">
+                    <li class="nav-item">
+                        <a href="contato.html" class="nav-link LinkSuperior">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://bmxparobe.blogspot.com/" class="nav-link LinkSuperior" target="_blank">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="videos.html" class="nav-link LinkSuperior">Vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cadastrar.html" class="nav-link LinkSuperior">Cadastrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link LinkSuperior">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row corpo">
+            <div class="col-10 m-auto">
+                <div class="gamma-container gamma-loading" id="gamma-container">
+
+                    <ul id="albumGamma" class="gamma-gallery">
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/0.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/0.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/0.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/0.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/0.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/0.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/0.jpg"></div>
+                                <noscript>
+                                    <img id="fototeste" src="GammaGallery/GammaGallery/atletas/marco/0.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/1.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/1.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/1.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/1.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/1.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/1.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/1.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/1.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/2.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/2.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/2.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/2.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/2.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/2.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/2.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/2.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/3.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/3.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/3.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/3.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/3.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/3.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/3.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/3.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/4.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/4.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/4.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/4.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/4.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/4.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/4.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/4.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/5.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/5.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/5.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/5.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/5.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/5.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/5.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/5.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/6.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/6.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/6.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/6.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/6.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/6.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/6.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/6.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/7.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/7.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/7.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/7.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/7.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/7.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/7.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/7.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/8.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/8.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/8.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/8.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/8.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/8.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/8.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/8.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/9.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/9.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/9.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/9.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/9.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/9.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/9.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/9.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/10.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/10.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/10.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/10.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/10.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/10.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/10.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/10.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/11.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/11.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/11.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/11.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/11.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/11.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/11.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/11.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/12.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/12.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/12.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/12.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/12.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/12.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/12.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/12.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/13.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/13.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/13.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/13.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/13.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/13.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/13.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/13.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div data-max-width="1800" data-max-height="1350">
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/14.jpg" data-min-width="1300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/14.jpg" data-min-width="1000"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/14.jpg" data-min-width="700"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/14.jpg" data-min-width="300"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/14.jpg" data-min-width="200"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/14.jpg" data-min-width="140"></div>
+                                <div data-src="GammaGallery/GammaGallery/atletas/marco/14.jpg"></div>
+                                <noscript>
+                                    <img src="GammaGallery/GammaGallery/atletas/marco/14.jpg" alt="img03" />
+                                </noscript>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <div class="gamma-overlay"></div>
+                </div>
+                <!--fim div gamma-->
+            </div>
+        </div>
+        <!--Div das fotos-->
+
+        <footer>
+            <div id="divRodape" class="row bg-dark">
+                <div class="itemRodape col-12 col-md-4 text-left px-5">
+                    <h3>NEWSLETTER</h3>
+                    <input class="form-control" type="text" name="email" placeholder="Digite seu email">
+                </div>
+
+                <div id="social" class="col-12 col-md-4">
+                    <ul id="socialRodape" class="itemRodape text-left text-md-center px-5">
+                        <h3 class="pb-2">Social</h3>
+                        <li class="linkRodape"><a href="https://m.facebook.com/pages/biz/sports_venue_stadium/D-Peso-bmx-719295514799645/"
+                                target="_blank">Facebook</a></li>
+                        <li class="linkRodape"><a href="https://www.youtube.com/channel/UCfoHo30rsS_NQVUolnI9e3A"
+                                target="_blank">Youtube</a></li>
+                        <li class="linkRodape"><a href="" target="_blank">Instagram</a></li>
+                        <li class="linkRodape"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div id="logoRodape" class="itemRodape col-12 col-md-4 text-left text-md-right px-5">
+                    <img src="imagens/Simbolo.png">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--Container fluid-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="GammaGallery/GammaGallery/js/jquery.masonry.min.js"></script>
+    <script src="GammaGallery/GammaGallery/js/jquery.history.js"></script>
+    <script src="GammaGallery/GammaGallery/js/js-url.min.js"></script>
+    <script src="GammaGallery/GammaGallery/js/jquerypp.custom.js"></script>
+    <script src="GammaGallery/GammaGallery/js/gamma.js"></script>
+    <script src="js/galeria.js"></script>    
+
+</body>
+
+</html>
